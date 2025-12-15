@@ -1,0 +1,17 @@
+# Ignorer les fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Ignorer le Dataset (trop lourd !)
+data/
+
+# Ignorer les sauvegardes de modèles (trop lourd !)
+checkpoints/
+
+# Ignorer les résultats de génération (inutile sur GitHub)
+results/
+
+# Ignorer les environnements virtuels (si tu en as un)
+venv/
+.env
+.DS_Store
